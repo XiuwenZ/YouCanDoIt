@@ -1,6 +1,7 @@
 
 # What it is?
-A web development project with the idea of helping students to track opportunities. 
+A web development project with the idea of helping students to track opportunities.  
+[View the website](https://xiuwenz.github.io/youcandoit.github.io/)
 
 # Problem
 School resources are expensive to afford, especially textbooks, meals, and transportation for students who are already dealing with low income.
