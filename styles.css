@@ -1,1 +1,20 @@
+body{
+	background-color: lightblue;
+}
 
+.navbar .navbar-brand{
+	color: black;
+	padding-left: 20px;
+}
+
+
+.nav-item{
+	color: black;
+	padding-left: 20px;
+}
+
+#mission{
+	text-align: center;
+	font-size: 20px;
+	padding: 25px 50px 75px;
+}
