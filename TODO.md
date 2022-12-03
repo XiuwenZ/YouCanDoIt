@@ -1,5 +1,5 @@
 # Next iteration:
-### - add more content to the home page
-### - make the products cards and add info into it. 
-### - FAQ drafting
+### three cards for product section 
+### add form into the resources pages
+### add images to team 
 ### - contact us form 
