@@ -69,7 +69,6 @@ window.addEventListener('DOMContentLoaded', event => {
 
 
 // background
-
 (function () {
   'use strict';
   window.addEventListener('load', function () {
