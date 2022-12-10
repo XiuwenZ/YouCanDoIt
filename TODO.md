@@ -1,5 +1,4 @@
-# Next iteration:
-### three cards for product section 
-### add form into the resources pages
-### add images to team 
+# Next:
+### table for the book resources
+#### explain that it would be possible to fetch from the web 
 ### - contact us form 
