@@ -3,66 +3,105 @@
    <head>
 
        <!-- Favicon-->
-       <link rel="icon" type="image/x-icon" href="assets/favicon.ico" >
+<!--        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" > -->
        <!-- Bootstrap icons-->
-       <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" >
+				<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+		 
        <!-- Google fonts-->
        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" >
        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
        <!-- Core theme CSS (includes Bootstrap)-->
-       <link href="styles.css" rel="stylesheet" >
+       <link href="form.css" rel="stylesheet" >
+		  <link href="styles.css" rel="stylesheet" >
        <!-- Javascript -->
        <script src="scripts.js"></script>
    </head>
 <body>
 	
-<!-- 	navBar-->
-    <nav class="navbar navbar-expand-lg " style="background-color: #e3f2fd;">
-      <a class="navbar-brand" href="index.html">Home</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <!-- 	navBar-->
+  <nav class="navbar navbar-expand-lg " style="background-color: #e3f2fd;" id="mainNav">
+    <img class="navbar-brand" id="logo" src="images/logo.png">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#resources_section">Resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#FAQ_section">FAQ</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#team_section">About us</a>
+        </li>
+        <!-- 					a feedback page -->
+        <li class="nav-item">
+          <a class="nav-link" href="form.html">Feedback</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+	<section id="contact">
+  
+  <h3 class="section-header">Contact Form</h3>
+  
+  <div class="contact-wrapper">
+  
+  <!-- Left contact page --> 
     
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-					<li class="nav-item">
-						<a class="nav-link active" href="product.html">Product</a>
-					</li>
-          <li class="nav-item">
-            <a class="nav-link active" href="faq.html">FAQ</a>
-          </li>
-					
-          <li class="nav-item">
-              <a class="nav-link active" href="about.html">About us</a>
-            </li>
-<!-- 					a feedback page -->
-					<li class="nav-item">
-        			<a class="nav-link avtive" href="form.html">Feedback</a>
-      		</li>
+    <form id="contact-form" class="form-horizontal" role="form">
+       
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+        </div>
+      </div>
+
+      <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+      
+      <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+        <div class="alt-send-button">
+          <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+        </div>
+      
+      </button>
+      
+    </form>
+    
+  <!-- Left contact page --> 
+    
+      <div class="direct-contact-container">
+
+        <ul class="contact-list">
+          <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">New York City, NY</span></i></li>
+          
+          <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(123)098-4321</a></span></i></li>
+          
+          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">youcandoit@gmail.com</a></span></i></li>
+          
         </ul>
+			
+
+        <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
 
       </div>
-    </nav>
-
-<!-- 	Header -->
-	<!-- Header -->
-
-    <!-- One -->
-    <br> </br>
-    <div class="container">
-        <div class="row gtr-150">
-            <div class="col medium">
-								<p>
-									FORM COMING IN...
-                </p>
-            </div>
-        </div>
-    </div>
-
-
-
-
-	
+    
+  	</div>
+  
+	</section>  
+  
+  
          <!-- Bootstrap core JS-->
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
        <!-- Core theme JS-->
